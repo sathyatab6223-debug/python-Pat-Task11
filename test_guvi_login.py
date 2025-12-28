@@ -117,8 +117,8 @@ def test_04_successful_login_positive(driver):
     try:
         driver.get('https://www.guvi.in/sign-in/')
         # --- IMPORTANT: PLACE VALID CREDENTIALS HERE ---
-        username = "sathyatab6223@gmail.com" # Must be a valid email
-        password = "Satyaasai17@" # Must be the corresponding valid password
+        username = "" # Must be a valid email
+        password = "" # Must be the corresponding valid password
         email_field = driver.find_element(By.ID, "email")
         passwd_field = driver.find_element(By.ID,"password" )
         submit_button = driver.find_element(By.XPATH, '//a[@id="login-btn"]')
